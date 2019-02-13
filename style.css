@@ -1,0 +1,445 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i,900,900i');
+
+body {
+	font: 300 18px / 1.6em Roboto, Arial, sans-serif;  /* 1.6em = wysokość lini 2x18px=36px */
+	margin: 0 auto;
+	color: #7c8ca0;
+	font-family: Roboto;
+
+}
+
+a {
+	color: #7c8ca0;
+	text-decoration: none;
+
+}
+
+a:hover {
+	opacity: 0.9;
+}
+
+/* Images */
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+/*Buttons */
+
+.btn {
+	display: inline-block;
+	padding: 24px 70px;
+	
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 1.2em;
+	
+	border-radius: 30px;
+}
+
+.btn-primary {
+	color: #fff;
+	background-color: #ff2d55;
+}
+
+.btn-default {
+	color: #0149a1;
+	background: #fff;
+	
+}
+
+.btn-default2 {
+	box-shadow: 0 0 134px 27px #ffffff;
+	color: #fff;
+	background-color: #0149a1;
+}
+
+
+/* Grid */
+
+.container {
+	max-width: 1170px;
+	width: 100%;
+	margin: 0 auto;
+
+}
+
+/*Page Header */
+.page-header {
+	padding: 25px 0;
+	border-bottom: 1px solid #e4e6ea;
+
+	
+}
+
+.page-header>.container {
+	display: flex;  /* Ustawia elementy headeru obok siebie */
+	justify-content: space-between; /* Wyrównanie elementów (logo i nav) tak żeby było miejsce między nimi */
+	align-items: center; /* Elementy wycentrowane pionowo */
+}
+
+.brand, .brand img {
+	display: block;
+}
+
+
+
+/* Menu */
+
+.menu-items {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	display: flex;
+	align-items: center;
+}
+
+.menu-items li {
+	margin: 0 4px;
+	display: inline-block;
+}
+
+.menu-items li a {
+	padding: 16px 25px;
+	display: inline-block;
+	color: #5d6981;
+	line-height: 1.2em;
+	font-size: 20px;
+	font-weight: 400;
+
+
+}
+
+.menu-items .active {
+
+	border-radius: 36px;
+	border: 1px solid #9fabba;
+	
+}
+
+/* Menu Icon */
+
+.menu.items .menu-icon {
+	margin: 0 8px;
+}
+
+.menu-items .menu-icon a {
+	background-repeat: no-repeat;
+	height: 46px;
+	width: 46px;
+	padding: 0;
+
+}
+
+.facebook-icon {
+	background-image: url(facebook-icon.png);
+
+}
+
+.twitter-icon {
+	background-image: url(twitter-icon.png);
+
+}
+
+/* Page section */
+.page-section {
+background: #fff linear-gradient(to top, #edeff1 0%, #edeff1 1%, #ffffff 24%, #e2e4e8 31%, #ffffff 100%);
+
+}
+
+
+/* Intro section */
+
+.intro-section {
+	padding-bottom: 130px;
+	padding-top: 135px;
+
+}
+
+
+
+/* Section Header */
+.section-header, .main-section-header {
+	text-align: center;
+	
+
+}
+
+.section-header h2 {
+	color: #0149a1;
+	font-size: 72px;
+	font-weight: 700;
+	margin: 0;
+
+
+}
+.section-header p {
+	color: #5d6981;
+	font-size: 36px;
+	font-weight: 300;
+	line-height: 1.3em;
+	margin: 28px 0 0;
+
+}
+
+/* Intro CTA */
+.intro-cta {
+	text-align: center;
+	margin-top: 105px;
+	margin-bottom: 115px;
+
+}
+
+/* Intro Video */
+
+.intro-video {
+	max-width: 1330px;
+	width: 100%;
+	margin: 0 auto;
+	background: url(elements/chat.png) no-repeat left 55px, url(elements/light-bulb.png) no-repeat right 55px;
+
+}
+
+/* Intro video image */
+.intro-video-image {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	position: relative;
+
+}
+
+.intro-video-image .btn {
+	position: absolute; /* Pozycjonowanie absolutne dla przycisku 'Play' - przycisk znajduje się na obrazku */
+	margin-top: -50px;
+}
+
+/* Feature Boxes */
+
+
+.feature-boxes>.container {
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.feature-box {
+	flex-basis: 23%;
+	text-align: center;
+
+}
+
+.feature-box img {
+	margin-bottom: 55px;
+
+}
+
+.feature-box h3 {
+	margin: 0 0 25px;
+	color: #5d6981;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 1.6em;
+}
+
+.feature-box p {
+	margin: 0;
+}
+
+/* Footer */
+
+.page-footer {
+	padding: 20px 0;
+	text-align: center;
+}
+
+.page-footer p {
+	margin: 0;
+}
+
+/* Creativity section */
+
+.creativity {
+	background: url(background_1.jpg);
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	width: 100%;
+	height: 610px;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+}
+
+.intro-cta2 {
+	margin-top: 355px;
+
+
+}
+
+/* Main section */
+
+
+.main-section {
+	padding-top: 125px;
+	padding-bottom: 130px;
+	background-color: #0149a1;
+	color: #fff;
+}
+
+.main-section-header h2 {
+	color: #fff;
+	font-size: 72px;
+	font-weight: 700;
+	margin: 0;
+
+
+
+}
+
+.main-section-header p {
+	color: #5483bb;
+	font-size: 36px;
+	font-weight: 300;
+	line-height: 1.3em;
+	margin: 28px 0 0;
+	 
+}
+
+.main-section>.container {
+	display: flex;
+	justify-content: space-between; /* Wyrównanie elementów tak żeby było miejsce między nimi */
+	
+}
+
+.content-box {
+	padding-top: 120px;
+	width: 560px;
+	
+}
+
+.content-box>p {
+	margin-bottom: 35px;
+}
+
+.main-section .picture {
+	margin-top: 50px;
+}
+
+.main-section .text {
+	font-size: 18px;
+	line-height: 1.6em;
+
+}
+
+.intro-cta3 {
+	margin-top: 70px;
+	text-align: center;
+}
+
+/* Employee section */
+
+.employee {
+	padding-top: 105px;
+	padding-bottom: 120px;
+	
+}
+
+.employee-photo {
+	text-align: center;
+
+}
+
+
+.employee-comment {
+	margin: 0 auto;
+	text-align: center;
+	max-width: 1170px;
+	width: 100%;
+	text-align: center;
+		
+}
+
+
+.employee-comment p {
+	color: #7c8ca0;
+	font-style: italic;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 1.2em;
+	width: 570px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.employee-comment span {
+	font-size: 18px;
+	font-weight: 300;
+	
+}
+
+.employee-comment a:hover {
+	text-decoration: underline;
+}
+
+
+/* Team section */
+
+.team {
+	padding-top: 135px;
+	padding-bottom: 10px;
+	background: #edeff1;
+}
+
+.team>.section-header {
+	margin-bottom: 100px;
+}
+
+
+/* Info section */
+
+.info {
+	padding-top: 125px;
+	padding-bottom: 130px;
+	
+	
+	background-color: #0149a1;
+	color: #fff;
+}
+
+.info-content {
+	max-width: 1000px;
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.content-text {
+
+	font-size: 18px;
+	line-height: 1.6em;
+}
+
+.content-text>p {
+	width: 150px;
+}
+
+.info-content2 {
+	text-align: center;
+	padding-top: 125px;
+	max-width: 620px;
+	margin: 0 auto;
+	font-size: 16px;
+	line-height: 1.2em;
+
+}
+
+.info-content2 a {
+	font-weight: 700;
+	color: #fff;
+}
+
+
